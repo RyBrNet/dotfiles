@@ -1,0 +1,14 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.tmux.conf: tmux.conf
+    ~/.vimrc: vimrc
+- create:
+    - ~/downloads
+
+#- shell:
+#    - chsh -s $(which zsh) # fails due to needing password
