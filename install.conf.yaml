@@ -9,6 +9,13 @@
     ~/.gitconfig: gitconfig
     ~/.tmux.conf: .tmux/.tmux.conf
     ~/.tmux.conf.local: tmux.conf.local
+    ~/.zlogin: prezto/runcoms/zlogin
+    ~/.zlogout: prezto/runcoms/zlogout
+    ~/.zpreztorc: prezto/runcoms/zpreztorc
+    ~/.zprofile: prezto/runcoms/zprofile
+    ~/.zshenv: prezto/runcoms/zshenv
+    ~/.zshrc: prezto/runcoms/zshrc
+    
 - create:
     - ~/downloads
 

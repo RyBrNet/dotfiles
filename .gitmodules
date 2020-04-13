@@ -6,3 +6,7 @@
 	path = .tmux
 	url = https://github.com/gpakosz/.tmux
 	ignore = dirty
+[submodule "prezto"]
+	path = prezto
+	url = https://github.com/sorin-ionescu/prezto
+	ignore = dirty
