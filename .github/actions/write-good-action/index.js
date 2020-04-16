@@ -8,12 +8,14 @@ try {
   console.log(`Input received was ${documents}`);  
 
   var suggestions = writeGood(documents);
+  console.log(`Suggestions are ${suggestions}`);
 
   core.setOutput("improvments", suggestions);
+  console.log("Output has been set");
 
   // Get the JSON webhook payload for the event that triggered the workflow
-  const payload = JSON.stringify(github.context.payload, undefined, 2)
-  console.log(`The event payload: ${payload}`);
+  //const payload = JSON.stringify(github.context.payload, undefined, 2)
+ // console.log(`The event payload: ${payload}`);
 } catch (error) {
   core.setFailed(error.message);
 }
