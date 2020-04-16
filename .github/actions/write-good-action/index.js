@@ -5,7 +5,8 @@ const writeGood = require('write-good');
 try {
   // `documents` input defined in action metadata file
   const documents = core.getInput('documents');
-  
+  console.log(`Input received was ${documents}`);  
+
   var suggestions = writeGood(documents);
 
   core.setOutput("improvments", suggestions);
