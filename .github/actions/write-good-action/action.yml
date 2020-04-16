@@ -1,0 +1,13 @@
+name: 'Write Good Action'
+description: 'Run write good program on documentation files'
+inputs:
+  documents:  # documents to check
+    description: 'documents to check'
+    required: true
+    default: 'So the cat was stolen.'
+outputs:
+  improvements: # id of output
+    description: 'Improvements suggested by write good'
+runs:
+  using: 'node12'
+  main: 'index.js'
