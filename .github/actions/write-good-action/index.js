@@ -8,7 +8,8 @@ try {
   console.log(`Input received was ${documents}`);  
 
   var suggestions = writeGood(documents);
-  console.log(`Suggestions are ${suggestions}`);
+  console.log("Suggestions are:");
+  console.log(suggestions);
 
   core.setOutput("improvments", suggestions);
   console.log("Output has been set");
