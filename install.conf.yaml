@@ -1,12 +1,13 @@
 - defaults:
     link:
-      relink: true
+        relink: true
 
 - clean: ['~']
 
 - link:
     ~/.vimrc: vimrc
     ~/.gitconfig: gitconfig
+    ~/.p10k.zsh: p10k.zsh
     ~/.tmux.conf: .tmux/.tmux.conf
     ~/.tmux.conf.local: tmux.conf.local
     ~/.zlogin: prezto/runcoms/zlogin
