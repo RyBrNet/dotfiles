@@ -1,7 +1,7 @@
 # dotfiles
 ~~~
-git clone --recursive https://github.com/rybrnet/dotfiles.git
-cd dotfiles
+git clone --recursive https://github.com/rybrnet/dotfiles.git .dotfiles
+cd .dotfiles
 ./install
 ~~~
 
