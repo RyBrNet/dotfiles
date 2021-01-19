@@ -4,7 +4,11 @@ git clone --recursive https://github.com/rybrnet/dotfiles.git .dotfiles
 cd .dotfiles
 ./install
 ~~~
-
+~~~
+zsh
+// Verify zsh looks correct and working with a git repo
+chsh -s /bin/zsh
+~~~
 ---
 
 My dot files and configs using dotbot to install.
