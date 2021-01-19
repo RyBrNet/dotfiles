@@ -41,8 +41,8 @@ packloadall
 silent! helptags ALL
 
 " Startup NERDTree when vim starts
-autocmd vimenter * NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" autocmd vimenter * NERDTree
+" autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " Spaces & Tabs
 set tabstop=4       " number of visual spaces per TAB
