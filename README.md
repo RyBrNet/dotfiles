@@ -9,6 +9,10 @@ zsh
 // Verify zsh looks correct and working with a git repo
 chsh -s /bin/zsh
 ~~~
+~~~
+Need to install powerlevel10k fonts or run p10k configure
+https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
+~~~
 ---
 
 My dot files and configs using dotbot to install.
